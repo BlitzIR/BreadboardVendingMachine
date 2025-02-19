@@ -36,13 +36,12 @@ Operations 4 & 5 represent a user slotting a coin into a vending machine (when d
 
 # The Figure
 ![image](https://github.com/user-attachments/assets/76261c3f-e942-4eca-bfa9-7c96b400c132)
-
 *text will go here*
+
 ![image](https://github.com/user-attachments/assets/c1c164f4-b11c-41ff-9189-37c69a577dc0)
-
 *text will go here*
-![image](https://github.com/user-attachments/assets/2cb1e12e-cf18-4fe8-aca5-607d8a62eddd)
 
+![image](https://github.com/user-attachments/assets/2cb1e12e-cf18-4fe8-aca5-607d8a62eddd)
 *text will go here - delayed reset*
 
 # Delayed Reset Circuit
@@ -51,6 +50,7 @@ A delayed reset circuit is a capacitor that utilizes a 4.7KΩ resistor, a 200µF
 
 # The Visual
 *images will go here*
+
 #Classic Vending Machine
 ![image](https://github.com/user-attachments/assets/78219630-a38a-4adc-9ac3-fe9e1304adc5)
 The SR Latch vending machine is a simplified version of a classic vending machine. 
