@@ -51,7 +51,7 @@ A delayed reset circuit is a capacitor that utilizes a 4.7KΩ resistor, a 200µF
 # The Visual
 *images will go here*
 
-#Classic Vending Machine
+# Classic Vending Machine
 ![image](https://github.com/user-attachments/assets/78219630-a38a-4adc-9ac3-fe9e1304adc5)
 The SR Latch vending machine is a simplified version of a classic vending machine. 
 
