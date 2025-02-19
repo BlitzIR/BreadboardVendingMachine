@@ -5,7 +5,8 @@ Breadboard Vending Machine/SR Latch documentation for CRT 205: Physical Computin
 Set-Reset Latch (SR Latch) is a device that uses the binary system where 0 is false and 1 is true. It uses digits S (set) and R (reset) to indicate inputs and these values can be represented by 0 or 1. Depending on the sum of the combinations, the output (Q) will be different. Unlike other circuits that are simple on/off switches, Q is an output that remembers the sum of the inputs.
 
 An additional output called NOT Q is represented by Q with a line over it. Essentially, it is the opposite of the Q value. If Q is 1, NOT Q is 0, and vice versa. This value will be explained further in the README file.
-![image](https://github.com/user-attachments/assets/bba6afc2-296f-4da7-9bba-6d7494af939c)
+
+![image](https://github.com/user-attachments/assets/bba6afc2-296f-4da7-9bba-6d7494af939c) - NOT Q symbol
 
 # Truth Table
 ![image](https://github.com/user-attachments/assets/35715a56-3a30-4ca8-9342-057e291b213f)
@@ -16,6 +17,7 @@ An additional output called NOT Q is represented by Q with a line over it. Essen
 
 # Electronics Diagram
 1. Here is the electronics diagram for the SR Latch mechanism. This is the diagram without any inputs or outputs to represent the wiring needed to construct one. Reference the truth table above to see the operations.
+
 ![image](https://github.com/user-attachments/assets/4cd79345-a8d2-4f81-9f68-6e5dd0e08a5e)
 
 2. In this figure, since R is 1 and S is 0, the output of Q is 0. Since NOT Q is the opposite of the Q value, not Q is 1.
