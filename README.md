@@ -21,20 +21,24 @@ An additional output called NOT Q is represented by Q with a line over it. Essen
 ![image](https://github.com/user-attachments/assets/4cd79345-a8d2-4f81-9f68-6e5dd0e08a5e)
 
 2. In this figure, since R is 1 and S is 0, the output of Q is 0. Since NOT Q is the opposite of the Q value, not Q is 1.
+
 ![image](https://github.com/user-attachments/assets/de7a5a45-6182-41f0-8908-b99fc7fbf510)
 
 3. In this figure, S and R are both 0 indicating a reset, and the the output of Q is 0. Since NOT Q is the opposite of the Q value, not Q is 1.
 ![image](https://github.com/user-attachments/assets/c0bb5cee-b0ff-4558-9a16-37606e2637e6)
 
 4. In this figure, S is 1 and R is 0, indicating a set or initialization. Since the output (Q) is 1, the NOT Q value is 0.
+
 ![image](https://github.com/user-attachments/assets/ef127a15-b315-4dec-845e-b755e630d998)
 
 5. If we use the representation above, the output (Q) has now held the set value of 1. Setting S and R to 0 in this diagram shows that the output (Q) is stored in the circuit as 1. NOT Q is zero because it is the opposite of 1.
+
 ![image](https://github.com/user-attachments/assets/23e5e1aa-cdb3-4643-8bd4-dd97dcb2107a)
 
 Operations 4 & 5 represent a user slotting a coin into a vending machine (when done sequentially). For a vending machine purchase to work, the user must insert a coin into the machine, and the machine must recognize/remember that a coin has been inserted into the machine.
 
 # The Figure
+
 ![image](https://github.com/user-attachments/assets/76261c3f-e942-4eca-bfa9-7c96b400c132)
 *text will go here*
 
