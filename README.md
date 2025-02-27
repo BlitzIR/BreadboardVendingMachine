@@ -24,7 +24,7 @@ An additional output called NOT Q is represented by Q with a line over it. Essen
 
 ![image](https://github.com/user-attachments/assets/de7a5a45-6182-41f0-8908-b99fc7fbf510)
 
-3. In this figure, S and R are both 0 indicating a reset, and the the output of Q is 0. Since NOT Q is the opposite of the Q value, not Q is 1.
+3. In this figure, S and R are both 0, indicating a reset, and the output of Q is 0. Since NOT Q is the opposite of the Q value, not Q is 1.
 ![image](https://github.com/user-attachments/assets/c0bb5cee-b0ff-4558-9a16-37606e2637e6)
 
 4. In this figure, S is 1 and R is 0, indicating a set or initialization. Since the output (Q) is 1, the NOT Q value is 0.
@@ -37,22 +37,25 @@ An additional output called NOT Q is represented by Q with a line over it. Essen
 
 Operations 4 & 5 represent a user slotting a coin into a vending machine (when done sequentially). For a vending machine purchase to work, the user must insert a coin into the machine, and the machine must recognize/remember that a coin has been inserted into the machine.
 
-# The Figure
+# The Circuit Types
+## Circuit 1: The Manual Circuit
 
 ![image](https://github.com/user-attachments/assets/76261c3f-e942-4eca-bfa9-7c96b400c132)
 
-*text will go here*
+Designed for ease of use, this circuit includes set/reset modules and coin/vend LED displays. This design is simple for any operational switches, such as buttons, slide switches, and wired buttons. The only caveat is that every operation must be manually operated. 
 
+## Circuit 2: The Coin Focused Circuit
 ![image](https://github.com/user-attachments/assets/c1c164f4-b11c-41ff-9189-37c69a577dc0)
 
-*text will go here*
+This design features a reset that focuses on the coin. Essentially, the coin will be stuck until the user purchases an item. This method is not preferred since the user's money is stuck in the machine until a purchase is made. 
 
+## Circuit 3: The Delayed Reset Circuit - Conceptually Flawed Design
 ![image](https://github.com/user-attachments/assets/2cb1e12e-cf18-4fe8-aca5-607d8a62eddd)
 
-*text will go here - delayed reset*
+Conceptually, this delayed reset circuit should work. However, the only issue is that the delayed reset occurs too quickly. Instead, the goal should be to instate a delay after the VEND LED produces a signal. 
 
 # Delayed Reset Circuit
-A delayed reset circuit is a capacitor that utilizes a 4.7KΩ resistor, a 200µF electrolytic capacitor, and extra wires. It charges up for a set amount of time until the machine can be reset. This process can be represented by a vending machine dispensing an item after purchase. After the item falls into the vending well, the machine resets and another coin must be inserted to restart the process. More technical parts of the vending machine require sensors to tell if an item has been fully dispensed.
+A delayed reset circuit is a capacitor that utilizes a 4.7KΩ resistor, a 200µF electrolytic capacitor, and extra wires. It charges up for a set amount of time until the machine can be reset. This process can be represented by a vending machine dispensing an item after purchase. After the item falls into the vending well, the machine resets, and another coin must be inserted to restart the process. More technical parts of the vending machine require sensors to tell if an item has been fully dispensed.
 
 
 # The Visual
