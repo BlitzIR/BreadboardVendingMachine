@@ -32,7 +32,7 @@ An additional output called NOT Q is represented by Q with a line over it. Essen
 
 ![image](https://github.com/user-attachments/assets/ef127a15-b315-4dec-845e-b755e630d998)
 
-5. If we use the representation above, the output (Q) has now held the set value of 1. Setting S and R to 0 in this diagram shows that the output (Q) is stored in the circuit as 1. NOT Q is zero because it is the opposite of 1.
+5. If we use the representation above, the output (Q) has now held the set value of 1. Setting S and R to 0 in this diagram shows that the output (Q) is stored in the circuit as 1. NOT Q is 0 because it is the opposite of 1.
 
 ![image](https://github.com/user-attachments/assets/23e5e1aa-cdb3-4643-8bd4-dd97dcb2107a)
 
@@ -101,9 +101,9 @@ Sheldon, R. (2023, January 18). What is an Ohm and what does it measure? – Tec
 # Notes
 Special thanks to the groups I worked with on this project!
 
-Group A: Doc and Noah
+Group A (SRLatch): Doc and Noah
 
-Group B: Moises, Marc, Luis, and Tomas
+Group B (Full Machine): Moises, Marc, Luis, and Tomas
 
 Special Thanks to Brock's group and Tyler's group for reference models.
 
