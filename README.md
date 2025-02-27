@@ -25,9 +25,10 @@ An additional output called NOT Q is represented by Q with a line over it. Essen
 ![image](https://github.com/user-attachments/assets/de7a5a45-6182-41f0-8908-b99fc7fbf510)
 
 3. In this figure, S and R are both 0, indicating a reset, and the output of Q is 0. Since NOT Q is the opposite of the Q value, not Q is 1.
+   
 ![image](https://github.com/user-attachments/assets/c0bb5cee-b0ff-4558-9a16-37606e2637e6)
 
-4. In this figure, S is 1 and R is 0, indicating a set or initialization. Since the output (Q) is 1, the NOT Q value is 0.
+5. In this figure, S is 1 and R is 0, indicating a set or initialization. Since the output (Q) is 1, the NOT Q value is 0.
 
 ![image](https://github.com/user-attachments/assets/ef127a15-b315-4dec-845e-b755e630d998)
 
