@@ -59,7 +59,21 @@ A delayed reset circuit is a capacitor that utilizes a 4.7KΩ resistor, a 200µF
 
 
 # The Visual
-*images will go here*
+## Step 1: The Layout/Reset
+![step11](https://github.com/user-attachments/assets/cc3878a1-496d-46cc-b862-05fc8419eebd)
+
+This image shows the layout and labels of the important components of the vending machine.
+
+## Step 2: Set
+![step22](https://github.com/user-attachments/assets/c31460c7-408b-4633-9930-f663724b40a2)
+
+In this image, pressing the coin button sets the machine. The machine remembers that the coin is in.
+
+## Step 3: Vend
+![step33](https://github.com/user-attachments/assets/202cfa8b-aa55-481f-9364-7a039ba9520e)
+
+When both lights are on, the machine remembers that the coin is in, and the machine vends an item to the buyer. The added delayed reset gives the machine time to reset after the machine dispenses an item.
+
 
 # Classic Vending Machine
 ![image](https://github.com/user-attachments/assets/78219630-a38a-4adc-9ac3-fe9e1304adc5)
@@ -70,16 +84,16 @@ The SR Latch vending machine is a simplified version of a classic vending machin
 # Citations
 Justice, M. (2021). How computers really work: A hands-on guide to the inner workings of the Machine. No Starch Press, Inc.
 
-https://www.build-electronic-circuits.com/s-r-latch/
+Ryoko. (2019, September 16). Upgrading the Tinkering Vending Machine!. Exploratorium. https://www.exploratorium.edu/tinkering/blogs/upgrading-tinkering-vending-machine 
 
-https://www.exploratorium.edu/tinkering/blogs/upgrading-tinkering-vending-machine
+Urias, O. M. (2023, February 21). The S-R latch (quickstart tutorial). Build Electronic Circuits. https://www.build-electronic-circuits.com/s-r-latch/ 
 
 # Additional Resources
-https://www.techtarget.com/whatis/definition/ohm
+Bigelow, S. J. (2023, June 7). What is a Microfarad?: Definition from TechTarget. WhatIs. https://www.techtarget.com/whatis/definition/microfarad 
 
-https://www.budgetronics.eu/en/capacitor-codes/c-15
+Budgetronics. (n.d.). Home. explained. https://www.budgetronics.eu/en/capacitor-codes/c-15 
 
-https://www.techtarget.com/whatis/definition/microfarad
+Mistablik. (2018, January 2). The Soda Locker - Vending Machine. Instructables. https://www.instructables.com/The-Soda-Locker-Vending-Machine/ 
 
-https://www.instructables.com/The-Soda-Locker-Vending-Machine/
+Sheldon, R. (2023, January 18). What is an Ohm and what does it measure? – TechTarget definition. WhatIs. https://www.techtarget.com/whatis/definition/ohm 
 
