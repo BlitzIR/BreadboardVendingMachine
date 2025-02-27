@@ -2,7 +2,7 @@
 Breadboard Vending Machine/SR Latch documentation for CRT 205: Physical Computing.
 
 # What is SR Latch?
-Set-Reset Latch (SR Latch) is a device that uses the binary system where 0 is false and 1 is true. It uses digits S (set) and R (reset) to indicate inputs and these values can be represented by 0 or 1. Depending on the sum of the combinations, the output (Q) will be different. Unlike other circuits that are simple on/off switches, Q is an output that remembers the sum of the inputs.
+Set-Reset Latch (SR Latch) is a device that uses the binary system where 0 is false and 1 is true. It uses digits S (set) and R (reset) to indicate inputs; these values can be represented by 0 or 1. Depending on the sum of the combinations, the output (Q) will be different. Unlike other circuits that are simple on/off switches, Q is an output that remembers the sum of the inputs.
 
 An additional output called NOT Q is represented by Q with a line over it. Essentially, it is the opposite of the Q value. If Q is 1, NOT Q is 0, and vice versa. This value will be explained further in the README file.
 
@@ -96,4 +96,13 @@ Budgetronics. (n.d.). Home. explained. https://www.budgetronics.eu/en/capacitor-
 Mistablik. (2018, January 2). The Soda Locker - Vending Machine. Instructables. https://www.instructables.com/The-Soda-Locker-Vending-Machine/ 
 
 Sheldon, R. (2023, January 18). What is an Ohm and what does it measure? – TechTarget definition. WhatIs. https://www.techtarget.com/whatis/definition/ohm 
+
+# Notes
+Special thanks to the groups I worked with on this project!
+
+Group A: Doc and Noah
+
+Group B: Moises, Marc, Luis, and Tomas
+
+Special Thanks to Brock's group and Tyler's group for reference models.
 
